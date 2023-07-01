@@ -1,0 +1,8 @@
+@startuml TestSchema
+
+entity Categories{
+    id int <<PK>>
+    name varchar(50)
+}
+
+@enduml
